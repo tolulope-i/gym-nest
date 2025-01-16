@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 
 const Gallery = () => {
   const galleryImages = [
-    { src: 'images/hero-img.jfif', caption: 'High-Intensity Workouts' },
-    { src: 'images/hero-img.jfif', caption: 'State-of-the-Art Equipment' },
-    { src: 'images/hero-img.jfif', caption: 'Yoga for Peace and Balance' },
-    { src: 'images/hero-img.jfif', caption: 'Personalized Training Plans' },
-    { src: 'images/hero-img.jfif', caption: 'Strength Training Sessions' },
-    { src: 'images/hero-img.jfif', caption: 'Group Classes and Community' },
+    { src: 'images/hiit.jpg', caption: 'High-Intensity Workouts' },
+    { src: 'images/strength.jpg', caption: 'State-of-the-Art Equipment' },
+    { src: 'images/yoga.jpg', caption: 'Yoga for Peace and Balance' },
+    { src: 'images/spin.jpg', caption: 'Personalized Training Plans' },
+    { src: 'images/abs.jpg', caption: 'Strength Training Sessions' },
+    { src: 'images/dance.jpg', caption: 'Group Classes and Community' },
   ];
 
   return (

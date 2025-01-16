@@ -31,12 +31,12 @@ const Classes = () => {
       <div className="px-8">
         <div className="grid sm:grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 text-center mx-auto">
           {[
-            { title: 'HIIT Blast', description: 'Burn calories and build endurance...', img: 'images/hero-img.jfif' },
-            { title: 'Strength & Conditioning', description: 'Develop muscle and improve strength...', img: 'images/hero-img.jfif' },
-            { title: 'Yoga Flow', description: 'Unwind, stretch, and strengthen...', img: 'images/hero-img.jfif' },
-            { title: 'Spin Revolution', description: 'Pedal your way to peak fitness...', img: 'images/hero-img.jfif' },
-            { title: 'Dance Fit', description: 'Get your heart pumping and your body moving...', img: 'images/hero-img.jfif' },
-            { title: 'Core & Abs', description: 'Strengthen your core muscles with targeted workouts...', img: 'images/hero-img.jfif' }
+            { title: 'HIIT Blast', description: 'Burn calories and build endurance...', img: 'images/hiit.jpg' },
+            { title: 'Strength & Conditioning', description: 'Develop muscle and improve strength...', img: 'images/strength.jpg' },
+            { title: 'Yoga Flow', description: 'Unwind, stretch, and strengthen...', img: 'images/yoga.jpg' },
+            { title: 'Spin Revolution', description: 'Pedal your way to peak fitness...', img: 'images/spin.jpg' },
+            { title: 'Dance Fit', description: 'Get your heart pumping and your body moving...', img: 'images/dance.jpg' },
+            { title: 'Core & Abs', description: 'Strengthen your core muscles with targeted workouts...', img: 'images/abs.jpg' }
           ].map((service, index) => (
             <div
               key={index}
