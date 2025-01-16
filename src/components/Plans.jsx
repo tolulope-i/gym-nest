@@ -21,7 +21,7 @@ const Plans = () => {
         {[
           {
             title: 'Basic Plan',
-            price: '$30/month',
+            price: '₦30000/month',
             description: 'Beginners or casual gym-goers',
             features: [
               'Access to gym facilities during staffed hours',
@@ -32,7 +32,7 @@ const Plans = () => {
           },
           {
             title: 'Standard Plan',
-            price: '$50/month',
+            price: '₦50000/month',
             description: 'Regular gym users seeking variety',
             features: [
               'Unlimited access to gym facilities during operating hours',
@@ -44,7 +44,7 @@ const Plans = () => {
           },
           {
             title: 'Premium Plan',
-            price: '$80/month',
+            price: '₦80000/month',
             description: 'Dedicated fitness enthusiasts looking for premium services',
             features: [
               '24/7 access to gym facilities',

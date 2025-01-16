@@ -51,9 +51,9 @@ export default {
         "black-text": "000"
       },
       backgroundImage: {
-        'back-image': "url('images/hero-img.jfif')", 
-        'gradient-overlay': "linear-gradient(to right, rgba(0, 0, 0, 0.9), transparent), url('images/hero-img.jfif')",
-      },
+        'back-image': "url('/images/hero-img.jfif')", 
+        'gradient-overlay': "linear-gradient(to right, rgba(0, 0, 0, 0.9), transparent), url('/images/hero-img.jfif')",
+      },      
       width:{
         "img-width": "400px"
       },
