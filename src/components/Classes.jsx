@@ -21,7 +21,7 @@ const Classes = () => {
           </h3>
         </div>
         <p
-          className="text-center max-w-4xl sm:text-md md:text-lg text-gray-600 mt-4 opacity-0 animate-fade-in delay-1000"
+          className="text-center max-w-4xl sm:text-md md:text-lg text-gray-600 mt-4 opacity-0 animate-fade-in delay-1000 sm:px-2 "
         >
           <span className="text-primary font-bold ">GymNest</span> offers a diverse range of classes designed to challenge, inspire, and keep you coming back for more. Whether you’re into high-energy cardio, strength training, or calming yoga sessions, our expert-led classes cater to all fitness levels. Discover a class that fits your goals and schedule today.
         </p>
@@ -48,7 +48,7 @@ const Classes = () => {
               <img
                 src={service.img}
                 alt={service.title}
-                className="w-full h-96 object-center transition-transform duration-500 transform group-hover:scale-110"
+                className="w-full  h-96 object-center transition-transform duration-500 transform group-hover:scale-110"
               />
               {/* Overlay with Title and Description */}
               <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black via-black/50 to-transparent text-white p-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
