@@ -44,7 +44,7 @@ const About = () => {
           <img
             src="images/about-image.png"
             alt="Gym Image"
-            className="max-w-full sm:max-w-[320px] md:w-[600px] lg:w-[700px] xl:w-[800px] mx-auto rounded-lg object-cover transition-transform duration-500 transform hover:scale-105 hover:shadow-xl"
+            className="max-w-full sm:max-w-[300px] md:w-[500px] lg:w-[700px] xl:w-[900px] mx-auto rounded-lg object-cover transition-transform duration-500 transform hover:scale-105 hover:shadow-xl"
           />
         </div>
       </div>
